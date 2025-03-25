@@ -1,5 +1,3 @@
-# e苗快疫通 — 疫苗接種與疫情快篩通報系統設計
-
 This repository documents a complete system analysis and design project developed for an undergraduate **System Analysis and Design** course. The project proposes **e苗快疫通**, a conceptual system designed to improve the flow of vaccination scheduling and COVID testing information across users and institutions.
 
 Although not implemented in code, the project followed standard software design practices, including stakeholder analysis, use case modeling, DFD, ER diagrams, and UI sketching.
