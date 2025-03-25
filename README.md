@@ -1,62 +1,80 @@
-This repository documents a complete system analysis and design project developed for an undergraduate **System Analysis and Design** course. The project proposes **e苗快疫通**, a conceptual system designed to improve the flow of vaccination scheduling and COVID testing information across users and institutions.
+# Undergraduate System Design Projects
 
-Although not implemented in code, the project followed standard software design practices, including stakeholder analysis, use case modeling, DFD, ER diagrams, and UI sketching.
+This repository includes two major system design projects completed during my undergraduate studies. Both projects follow a structured system analysis and modeling approach, and were conducted in response to real-world challenges during the COVID-19 pandemic.
 
----
-
-## 📘 Project Summary
-
-**e苗快疫通** is a conceptual healthcare communication system that integrates:
-- Vaccine appointment scheduling
-- COVID test result reporting
-- Real-time epidemic monitoring
-
-The system is targeted at both **general users** and **public health authorities**, providing a unified platform for epidemic-related communication and decision-making.
+Though these projects were conceptual in nature and not implemented into software, they demonstrate my ability to design scalable, user-centered systems through documentation, modeling, and collaboration.
 
 ---
 
-## 📂 Repository Structure
+## 📌 Project 1: Campus Meal Ordering System  
+**(System Analysis and Design Course Project)**
 
-| File | Description |
-|------|-------------|
-| `system analysis and design.pdf` | Main report covering full system design and analysis — use cases, functional decomposition, DFD, ER diagrams, user flow, UI mockups, risk analysis, and deployment suggestions. |
-| `e苗快疫通摘要.pdf` | Summary slides used for oral presentation. |
-| `e苗快疫通海報.jpg` | Poster presented at the final project showcase. |
+### **Background**
+During the height of the COVID-19 pandemic, campus meal ordering presented a safety and efficiency challenge. This project proposes a contactless system that allows students to order meals online and pick them up using QR codes at scheduled times, reducing crowding and exposure risk.
 
----
+### **Key Goals**
+- Minimize physical contact in the meal pickup process
+- Enable pre-ordering via a digital platform
+- Provide real-time menu and order updates
+- Support staff-side management and analytics
 
-## 🧠 Key Design Elements
+### **Deliverables & Features**
+- **Use Case Analysis**: Detailed user roles (students, vendors, administrators)
+- **Data Flow Diagrams**: Level-0 and Level-1 DFDs illustrating core flows
+- **Entity-Relationship (ER) Model**: Normalized schema for order, user, and menu data
+- **Interface Mockups**: Initial wireframes for web/mobile ordering interfaces
+- **System Deployment Considerations**: Basic infrastructure layout and risk assessment
+- **Team Collaboration**: Although this was a team project, I was responsible for nearly the entire system modeling and documentation, including DFDs, ER diagrams, functional planning, and report compilation
 
-- **Requirement Specification**: Identified core user needs via structured use case analysis.
-- **Data Flow Diagrams (DFD)**: Developed both Level-0 and Level-1 diagrams to visualize data movement and processing.
-- **ER Model**: Modeled the database schema based on entity-relationship logic for future scalability.
-- **Interface Design**: Proposed interface wireframes that align with expected user behavior patterns.
-- **Risk & Deployment**: Evaluated possible technical and organizational risks and provided deployment suggestions for scaling in real scenarios.
-
----
-
-## 👤 My Role & Contributions
-
-Although this was a team project, I was responsible for **nearly the entire system design process**, including:
-- Structuring the system flow and functional decomposition
-- Creating the DFDs and ER diagrams
-- Drafting UI wireframes and flow sketches
-- Writing and compiling the main report
-- Coordinating timeline and integration of team input
-
-This hands-on experience helped me internalize the **importance of system thinking**, **clear documentation**, and **practical design alignment with user needs** — all skills directly applicable to software project planning and technical communication.
+### **File**
+- `system analysis and design.pdf`
 
 ---
 
-## 🎓 Educational Context
+## 📌 Project 2: e苗快疫通 — Epidemic Communication & Vaccination Reporting Platform  
+**(Graduation Capstone Project)**
 
-This project was developed as the final deliverable for the **System Analysis and Design** course. While no source code was implemented, the report followed **industry-relevant documentation practices**, simulating a real-world planning phase for system software.
+### **Background**
+This project proposes an integrated platform to manage vaccine appointments, COVID test result submissions, and epidemic information delivery for the general public and healthcare authorities.
+
+The system, named **e苗快疫通**, aims to simplify data flow across health departments and streamline epidemic-related services in high-pressure public health environments.
+
+### **Key Goals**
+- Allow users to register vaccine appointments and submit COVID testing results
+- Provide real-time epidemic notifications to the public
+- Enable institutions to monitor and track vaccination/testing coverage
+- Support multiple user roles with tailored interfaces
+
+### **Deliverables & Features**
+- **System Concept Design**: Overview of platform architecture and data flow
+- **Function Mapping**: Functional modules aligned to public health workflows
+- **UI Flow**: High-level interaction mockups to support each user journey
+- **Communication Logic**: Proposed alert and response mechanisms for new cases
+- **Report & Poster**: Presentation materials for final project showcase
+
+### **My Role**
+As one of the core contributors, I helped plan the user scenarios, define functional modules, and consolidate the project report and visual presentation materials.
+
+### **Files**
+- `e苗快疫通摘要.pdf` – Summary presentation for oral defense  
+- `e苗快疫通海報.jpg` – Visual poster used during the final presentation
 
 ---
 
-## ✅ Final Notes
+## 🎓 Skills Demonstrated Across Both Projects
 
-This repository showcases my ability to:
-- Design a structured and scalable system based on user and organizational requirements
-- Communicate design logic effectively through diagrams and documentation
-- Drive project progress independently while integrating contributions from a team
+- Functional decomposition and requirement analysis  
+- UML-style use case planning  
+- Level-0 / Level-1 Data Flow Diagram (DFD) construction  
+- Entity-Relationship (ER) modeling  
+- UI sketching and interaction planning  
+- Risk analysis and system deployment thinking  
+- Collaborative documentation and structured reporting  
+
+---
+
+## ✅ Final Note
+
+These projects reflect my ability to take real-world needs, break them down into structured systems, and communicate designs effectively through documentation. While not software implementations, both works follow software design principles and mirror the early phases of professional development workflows.
+
+They also demonstrate my initiative and leadership in system planning — especially in the first project, where I led most of the modeling and documentation tasks from start to finish.
